@@ -20,3 +20,11 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+first_roll = rand(1..6)
+second_roll = rand(1..6)
+total = first_roll + second_roll
+
+puts "first-roll: #{first_roll}"
+puts "second-roll: #{second_roll}"
+puts "total: #{total}"

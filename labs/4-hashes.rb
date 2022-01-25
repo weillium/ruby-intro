@@ -26,3 +26,10 @@ weather_data = {
     { temperature: 70, conditions: "Partly Cloudy" }
   ]
 }
+
+print_string =  
+  "Currently it is #{weather_data[:current][:temperature]} and #{weather_data[:current][:conditions]}. " \
+  "Tomorrow it will be #{weather_data[:forecast][0][:temperature]} and #{weather_data[:forecast][0][:conditions]}. " \
+  "The next day we will see #{weather_data[:forecast][1][:conditions]}, with a temperature of #{weather_data[:forecast][1][:temperature]}."
+
+puts print_string
